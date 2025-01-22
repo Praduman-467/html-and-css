@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+   
+}
+.navbar-nav {
+    gap: 25px; 
+    /* position: fixed; */
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   
+}
+.navbar-nav li a{
+    position: relative;
+}
+.navbar-nav li a::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: .1rem;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform .5sec;
+    transform-origin: bottom right;
+}
+.navbar-nav li a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.nav-item0{
+    margin: 0;
+    padding: 0;
+    /* position: fixed; */
+}
+
+.mainn-2{
+    background: linear-gradient(-45deg,#262525 70%,orangered );
+    
+   
+    /* width: 100%; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+.gym-img img{
+    /* height: 250px; */
+    width: 40vw;
+    
+    /* border: 2px solid white;
+     box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff, 0 0 2rem #112e6b,
+    inset 0 0 2rem #112e6b,0 0 4rem #112e6b,inset 0 0 4rem #112e6b ;
+    border-radius: 50%; */
+}
+.gym{
+    background: linear-gradient(-45deg,orangered,#262525 70%);
+}
+.home-content h3{
+   font-size: 3rem; 
+   font-weight: 600;
+}
+.home-content span{
+    font-size: 3rem;
+    font-weight: 600;
+}
+span{
+    color: orangered;
+}
+.home-content h1{
+    font-size: 3.6rem;
+    font-weight:500 ;
+    line-height: 1.3;
+}
+.home-content p{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+.ser1{
+    font-size:50px ;
+    font-weight:100px ;
+    text-align: center;
+    color: white;
+    padding:40px ;
+    background: linear-gradient(-45deg,orangered,#262525 70%);
+}
+.ser0{
+    background: linear-gradient(-45deg,orangered,#262525 70%);
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    /* height: 600px; */
+    padding-top: 20px;
+    margin: 0;
+}
+
+.card img{
+    height: 300px;
+}
+.logo{
+    padding-left: 60px;
+}
+.about-img img{
+    padding-left: 30px;
+    padding-top: 60px;
+}
+.about-img{
+    background: linear-gradient(-45deg,#262525 70%,orangered );
+    margin: 0;
+}
+.about-conten{
+    background: linear-gradient(-45deg,orangered,#262525 70%);
+    margin: 0;
+}
+.about{
+    margin: 0;
+}
+.about-conten h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.uuu{
+    background: linear-gradient(-45deg,#262525 70%,orangered);  
+    /* position: fixed; */
+}
+.about-conten p{
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    padding-top: 30px;
+}
+.about-conten button{
+    border-radius: 0.5rem;
+    padding: .8rem 1.5rem;
+    /* margin-left: 1.5rem; */
+    color: white;
+    background:orangered ;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.plan h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 60px;
+    text-align: center;
+}
+.plan0{
+    background-color: #262525;
+}
+.list li{
+    background-color: black;
+    color: white;
+}
+.list1{
+   padding-top: 40px; 
+   padding-bottom: 40px;
+   padding-left: 20px;
+   
+}
+.list1 button{
+    border-radius: 0.5rem;
+    padding: .8rem 1.5rem;
+    /* margin-left: 1.5rem; */
+    color: white;
+    background:orangered ;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.card{
+    border: 2px solid orangered;
+    box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff, 0 0 2rem orangered,
+    inset 0 0 2rem orangered,0 0 4rem orangered,inset 0 0 4rem orangered ;
+}
+.cont0{
+    /* border: .2px solid red; */
+    width: 100%;
+    height: 500px;
+    background-color: #262525;
+    margin: 0;
+    padding-top: 60px;
+}
+.cont1 h3{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.cont1 h5{
+    color: white;
+    /* text-align: center; */
+    padding-top: 40px;
+}
+.cont1 p{
+    color: white;
+    /* text-align: center; */
+    /* padding-top: 40px; */
+    text-align: justify;
+}
+.cont1 span{
+    color: white;
+}
+.icons0{
+    font-size: 30px;
+    color: white;
+   padding-top: 50px;
+    word-spacing: 30px;
+}
+.ffff{
+    color: white;
+}
+.work0{
+    margin: 0;
+    padding-top: 60px;
+    background-color: #262525;
+}
+.work1 img{
+ height: 350px;
+ width: 100%;
+ margin-top: 20px;
+}
+.work1 p{
+    text-align: justify;
+    margin-top: 15px;
+    color: white;
+}
+.work1 h5{
+    color: white;
+}
+.icon8{
+    margin-top: 40px;
+}
+
